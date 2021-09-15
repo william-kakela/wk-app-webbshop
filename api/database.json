@@ -37,12 +37,5 @@
       "image": "https://placeimg.com/640/480/any"
     }
   ],
-  "cart": [
-    {
-      "id": 1,
-      "name": "skirt",
-      "price": "500",
-      "image": "https://placeimg.com/640/480/any"
-    }
-  ]
+  "cart": []
 }

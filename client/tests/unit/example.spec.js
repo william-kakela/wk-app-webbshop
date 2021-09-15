@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils'
 import Home from '@/views/Home.vue'
-//import ProductService from '@core/ProductService.js'
+
 
 
 describe('Home.vue', () => {
@@ -17,13 +17,14 @@ it('adding product to cart', async () => {
   const Method = jest.spyOn(Home.methods, "addProductToCart");
   const wrapper = shallowMount(Home);
   await wrapper.find('button.buy__Button')
+  //expect(Method).toBeCalled();
 });
 
-/*it('should fetch from the api', () => {
-  const spy = jest.spyOn(ProductService.methods, "init");
+it('should fetch from the api', () => {
+  const spy = jest.spyOn(Home.methods, "getProducts");
   shallowMount(Home)
   expect(spy).toBeCalled();
-});*/
+});
 
 it(' should show products in the cart', () => {
   const wrapper = shallowMount(Home, {
