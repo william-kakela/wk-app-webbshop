@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "skirt",
+      "price": "500",
+      "image": "https://placeimg.com/640/480/any"
+    },
+    {
+      "id": 2,
+      "name": "jeans",
+      "price": "700",
+      "image": "https://placeimg.com/640/480/any"
+    },
+    {
+      "id": 3,
+      "name": "top",
+      "price": "250",
+      "image": "https://placeimg.com/640/480/any"
+    },
+    {
+      "id": 4,
+      "name": "shoes",
+      "price": "499",
+      "image": "https://placeimg.com/640/480/any"
+    },
+    {
+      "id": 5,
+      "name": "hat",
+      "price": "349",
+      "image": "https://placeimg.com/640/480/any"
+    },
+    {
+      "id": 6,
+      "name": "socks",
+      "price": "99",
+      "image": "https://placeimg.com/640/480/any"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "skirt",
+      "price": "500",
+      "image": "https://placeimg.com/640/480/any"
+    }
+  ]
+}
